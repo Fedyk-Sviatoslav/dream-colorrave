@@ -4,131 +4,156 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Playfair+Display&family=Roboto:wght@300;400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css" integrity="sha512-gA2Bvu0/hw4oj0Lp8ZHjK+o3S4BE5m8d/wNVy6ktKLhHKPpWLQwv9ixzuWirWOakoJqlBdePq2NhoCaUOQ5npQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
     <header class="header">
-        <img src="./images/swoosh.webp" alt="nike logo" class="header-image">
-        <nav class="header-navigation">
-            <ul class="header-list">
+        <div class="container">
+            <img src="./images/swoosh.webp" alt="nike logo" class="header-image">
+            <nav class="header-navigation">
+                <ul class="header-list">
+                    <li class="header-item">
+                    <button type="button" class="header-button">Main page</button>
+                    </li>
+                    <li class="header-item">
+                        <button type="button" class="header-button">Benefits</button>
+                    </li>
+                    <li class="header-item">
+                        <button type="button" class="header-button">Advantages</button>
+                    </li>
+                    <li class="header-item">
+                        <button type="button" class="header-button">Reviews</button>
+                    </li>
+                    <li class="header-item">
+                        <button type="button" class="header-button">Contacts</button>
+                    </li>
+                    <li class="header-item">
+                        <button type="button" class="header-button">Order</button>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="header-language">
                 <li class="header-item">
-                <button type="button">Main page</button>
+                    <button type="button" class="header-button">Ua</button>
                 </li>
                 <li class="header-item">
-                    <button type="button">Benefits</button>
-                </li>
-                <li class="header-item">
-                    <button type="button">Advantages</button>
-                </li>
-                <li class="header-item">
-                    <button type="button">Reviews</button>
-                </li>
-                <li class="header-item">
-                    <button type="button">Contacts</button>
-                </li>
-                <li class="header-item">
-                    <button type="button">Order</button>
+                    <button type="button" class="header-button">Eng</button>
                 </li>
             </ul>
-        </nav>
-        <ul class="header-language">
-            <li class="header-item">
-                <p class="header-text">Ua</p>
-            </li>
-            <li class="header-item">
-                <p class="header-text">Eng</p>
-            </li>
-        </ul>
+        </div>
     </header>
     <main class="main">
-        <section class="colorave-section">
-            <img src="./images/swoosh.webp" alt="big nike swoosh" class="colorave-image">
-            <p class="colorave-text">С&R</p>
-            <h1 class="colorave-title">ColoRawe</h1>
+            <section class="colorave-section">
+                <div class="container">
+                <img src="./images/swoosh.webp" alt="big nike swoosh" class="colorave-image">
+                <p id="colorave-text">C&R</p>
+                <h1 class="colorave-title">ColoRawe</h1>
                 <h2 class="colorave-subtitle">Your dream Nike</h2>
-                <p class="colorave-text">On this site you can find custom Nike sneakers of your dreams. 
-                    The original company caт`t create such beautiful 
-                    sneakers as we do.
-                    Good luck finding your way in the world of custom sneakers.</p>
-                    <button type="button">Buy my Nike</button>
+                <p class="colorave-text">On this site you can find custom Nike sneakers of your dreams.
+                        The original company can`t create such beautiful
+                        sneakers as we do.
+                        Good luck finding your way in the world of custom sneakers.</p>
+                <button type="button" class="colorave-button">Buy my Nike</button>
+        </div>
         </section>
         <section class="about-section">
-            <ul class="about-list">
-                <li class="about-item">
-                    <p class="about-text">Premium Quality</p>
-                    <img src="./images/stars.webp" alt="stars" class="about-image">
-                </li>
-                <li class="about-item">
-                    <p class="about-text">Indelible paint</p>
-                    <img src="./images/paints.webp" alt="paints" class="about-image">
-                </li>
-                <li class="about-item">
-                    <p class="about-text">Fast shipping</p>
-                    <img src="./images/van.webp" alt="van" class="about-image">
-                </li>
-            </ul>
+            <div class="container">
+                <ul class="about-list">
+                    <li class="about-item">
+                        <p class="about-text">Premium Quality</p>
+                        <img src="./images/stars.webp" alt="stars" class="about-image">
+                    </li>
+                    <li class="about-item">
+                        <p class="about-text">Indelible paint</p>
+                        <img src="./images/paints.webp" alt="paints" class="about-image">
+                    </li>
+                    <li class="about-item">
+                        <p class="about-text">Fast shipping</p>
+                        <img src="./images/van.webp" alt="van" class="about-image">
+                    </li>
+                </ul>
+            </div>
         </section>
         <section class="reviews-section">
-            <ul class="reviews-list">
-                <li class="reviews-item">
-                    <p class="reviews-comment">Sneakers are very comfortable and well painted, nothing has worn off in a year.</p>
-                    <p class="reviews-date">25.11</p>
-                    <img src="./images/john-teylor.png" alt="photo of a man" class="reiews-image">
-                    <p class="reviews-username">John Teylor</p>
-                    <p class="reviews-since">With us from 2018</p>
-                </li>
-                <li class="reviews-item">
-                    <p class="reviews-comment">I'm very happy with this color scheme. They match all my clothes.</p>
-                    <p class="reviews-date">05.01</p>
-                    <img src="./images/elizabeth-garcia.png" alt="photo of a woman" class="reiews-image">
-                    <p class="reviews-username">Elizabeth Garsia</p>
-                    <p class="reviews-since">With us from 2020</p>
-                </li>
-                <li class="reviews-item">
-                    <p class="reviews-comment">Just right if you need to go to a party. I use them actively, the paint is super.</p>
-                    <p class="reviews-date">18.06</p>
-                    <img src="./images/tom-maquare.png" alt="photo of a man" class="reiews-image">
-                    <p class="reviews-username">Tom Maquare</p>
-                    <p class="reviews-since">With us from 2019</p>
-                </li>
-            </ul>
+            <div class="container">
+                <ul class="reviews-list">
+                    <li class="reviews-item">
+                        <p class="reviews-comment">Sneakers are very comfortable and well painted, nothing has worn off in a year.</p>
+                        <p class="reviews-date">25.11</p>
+                        <img src="./images/john-teylor.png" alt="photo of a man" class="reiews-image">
+                        <p class="reviews-username">John Teylor</p>
+                        <p class="reviews-since">With us from 2018</p>
+                    </li>
+                    <li class="reviews-item">
+                        <p class="reviews-comment">I'm very happy with this color scheme. They match all my clothes.</p>
+                        <p class="reviews-date">05.01</p>
+                        <img src="./images/elizabeth-garcia.png" alt="photo of a woman" class="reiews-image">
+                        <p class="reviews-username">Elizabeth Garsia</p>
+                        <p class="reviews-since">With us from 2020</p>
+                    </li>
+                    <li class="reviews-item">
+                        <p class="reviews-comment">Just right if you need to go to a party. I use them actively, the paint is super.</p>
+                        <p class="reviews-date">18.06</p>
+                        <img src="./images/tom-maquare.png" alt="photo of a man" class="reiews-image">
+                        <p class="reviews-username">Tom Maquare</p>
+                        <p class="reviews-since">With us from 2019</p>
+                    </li>
+                </ul>
+            </div>
         </section>
         <section class="order-section">
-            <h2 class="order-title">Order</h2>
-            <ul class="order-list">
-                <li class="order-item">
-                    <input type="text" class="order-input" placeholder="Write your email      Confirm">
-                </li>
-                <li class="order-item">
-                    <input type="text" class="order-input" placeholder="Your Country">
-                </li>
-                <li class="order-item">
-                    <input type="text" class="order-input" placeholder="Your City">
-                </li>
-                <li class="order-item">
-                    <input type="text" class="order-input" placeholder="Your Adress">
-                </li>
-            </ul>
-            <button type="button">Order my Nike</button>
+            <div class="container">
+                <h2 class="order-title">Order</h2>
+                <ul class="order-list">
+                    <li class="order-item">
+                        <input type="text" class="order-input" placeholder="Write your email      Confirm">
+                    </li>
+                    <li class="order-item">
+                        <input type="text" class="order-input" placeholder="Your Country">
+                    </li>
+                    <li class="order-item">
+                        <input type="text" class="order-input" placeholder="Your City">
+                    </li>
+                    <li class="order-item">
+                        <input type="text" class="order-input" placeholder="Your Adress">
+                    </li>
+                </ul>
+                <button type="button">Order my Nike</button>
+            </div>
         </section>
     </main>
     <footer class="footer">
-      <section class="footer-contacts">
-          <ul class="footer-list">
-            <li class="footer-item">
-              <p class="footer-text">Have a question?</p>
-              <a class="footer-link" href="#">ColoRawe_support@gmail.com</a>
-            </li>
-            <li class="footer-item">
-                <p class="footer-text">Have a proposal for cooperation?</p>
-                <a href="#" class="footer-link">ColoRawe_Cooperation@gmail.com</a>
-            </li>
-            <li class="footer-item">
-                <p class="footer-text">Advertising questions?</p>
-                <a href="#" class="footer-link">ColoRawe_Advertising@gmail.com</a>
-            </li>
-          </ul>
-      </section>
+      <div class="container">
+          <section class="contacts">
+              <ul class="contacts-list">
+                <li class="contacts-item">
+                  <p class="contacts-text">Have a question?</p>
+                  <a class="contacts-link" href="#">ColoRawe_support@gmail.com</a>
+                </li>
+                <li class="contacts-item">
+                    <p class="contacts-text">Have a proposal for cooperation?</p>
+                    <a href="#" class="contacts-link">ColoRawe_Cooperation@gmail.com</a>
+                </li>
+                <li class="contacts-item">
+                    <p class="contacts-text">Advertising questions?</p>
+                    <a href="#" class="contacts-link">ColoRawe_Advertising@gmail.com</a>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section class="copyright">
+            <div class="container">
+                <p class="copyright-text">2022 ColoRawe @All rights reserved</p>
+                <p class="copyright-text">United States</p>
+                <img src="./images/swoosh.webp" alt="swoosh" class="copyright-image">
+                <p class="copyright-logo">C&R</p>
+            </div>
+          </section>
     </footer>
 </body>
 </html>

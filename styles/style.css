@@ -1,3 +1,12 @@
+:root {
+    --white-text: #FFF;
+    --header-grey: #C7C7C7;
+    --cards-grey: #D8D8D8; /* confirm  in input */
+    --inputs-grey: #959595;
+    --bg-color: #012D63;
+    --button-color: #8E32C6;
+}
+
 .container {
 width: 1140px;
 padding-left: 15px;
@@ -7,13 +16,130 @@ margin-left: auto;
 }
 
 .header {
-    background-color: #012D63;
+    background-color: var(--bg-color);
+}
+
+.header-button {
+    background-color: var(--bg-color);
+     color: var(--header-grey);
+font-family: 'Roboto';
+font-size: 24px;
+font-weight: 400;
+line-height: normal;
+}
+
+.header-button:hover {
+    background-color: var(--bg-color);
+    color: #FFF;
+font-family: 'Roboto';
+font-size: 24px;
+font-weight: 400;
+line-height: normal;
 }
 
 .colorave-section {
-    background-color: #012D63;
+    background-color: var(--bg-color);
 }
 
-.footer {
-    background-color: #012D63;
+.colorave-image {
+    width: 185px;
+height: 120px;
+}
+
+#colorave-text {
+    color: var(--white-text);
+font-family: 'PT Serif';
+font-size: 48px;
+font-weight: 400;
+line-height: normal;
+}
+
+.colorave-title {
+    color: var(--white-text);
+font-family: 'Playfair Display';
+font-size: 144px;
+font-weight: 400;
+line-height: normal;
+}
+
+.colorave-subtitle {
+    color: var(--white-text);
+font-family: 'Playfair Display';
+font-size: 72px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.colorave-text {
+    color: var(--white-text);
+font-family: 'Roboto';
+font-size: 18px;
+font-weight: 400;
+line-height: normal;
+}
+
+.colorave-button {
+    color: var(--white-text);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    padding: 20px 61px 20px 61px;
+    background-color: var(--button-color);
+    border-radius: 10px;
+}
+
+.about-section {
+ background-color: var(--bg-color);
+}
+
+.about-text {
+    color: var(--white-text);
+font-family: 'Playfair Display';
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.about-image {
+    width: 240px;
+height: 240px;
+}
+
+.reviews-section {
+    background-color: var(--bg-color);
+}
+
+.reviews-comment {
+    color: var(--white-text);
+font-family: Roboto;
+font-size: 24px;
+font-weight: 400;
+line-height: normal;
+}
+
+.reviews-date {
+    color: var(--cards-grey);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: normal;
+}
+
+.reviews-username {
+    color: var(--white-text);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: normal;
+}
+
+.reviews-since {
+    color: var(--cards-grey);
+font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+line-height: normal;
 }
