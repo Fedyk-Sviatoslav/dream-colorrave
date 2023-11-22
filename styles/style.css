@@ -60,9 +60,10 @@ line-height: normal;
 .colorave-section {
     background-image: url(../images/shoe-bg.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 94px;
-    padding-bottom: 183px;
+    background-position:  center;
+    background-size: contain;
+    padding-top: 14px;
+    padding-bottom: 59px;
 }
 
 .colorave-image {
@@ -403,6 +404,10 @@ font-size: 24px;
 font-weight: 400;
 line-height: normal;
 text-decoration-line: underline;
+}
+
+.footer-copyright {
+    padding-top: 24px;
 }
 
  .copyright-flex {
