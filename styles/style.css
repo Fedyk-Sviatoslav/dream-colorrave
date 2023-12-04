@@ -225,7 +225,6 @@
   border-radius: 15px;
   background-image: url(../images/blue-gradient.png);
   background-repeat: no-repeat;
-  box-shadow: 0px 14px 0px -5px #7b54b2, 0px 30px 0px -13px #533978;
 }
 
 .reviews-item:nth-child(2) {
@@ -233,7 +232,6 @@
   border-radius: 15px;
   background-image: url(../images/pink-gradient.png);
   background-repeat: no-repeat;
-  box-shadow: 0px 14px 0px -5px #9159b1, 0px 30px 0px -13px #61337c;
 }
 
 .reviews-item:nth-child(3) {
@@ -241,7 +239,6 @@
   border-radius: 15px;
   background-image: url(../images/orange-gradient.png);
   background-repeat: no-repeat;
-  box-shadow: 0px 14px 0px -5px #b95a4c, 0px 30px 0px -13px #732f26;
 }
 
 .reviews-comment {
